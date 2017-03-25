@@ -1,0 +1,9 @@
+{
+
+  "path":           "/resources/",
+  "export_path":    "/dist/",
+  "minify":         true,
+  "keep_variables": false,
+  "extention":      "css.php",
+  "new_extention":  "css"
+}

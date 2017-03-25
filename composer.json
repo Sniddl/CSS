@@ -1,0 +1,27 @@
+{
+    "name": "sniddl/css",
+    "description": "PHP for CSS files",
+    "keywords": ["php", "css"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sniddl",
+            "email": "sendinfo@sniddl.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+  "scripts": {
+      "test": "phpunit"
+  },
+	"autoload": {
+        "psr-4": {
+            "sniddl\\css\\": "src/"
+        }
+    }
+}
